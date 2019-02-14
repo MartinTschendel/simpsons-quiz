@@ -105,3 +105,35 @@ def fill_test(sublist, blank):
         hard_test = ' '.join(list_of_hard_test)
         print hard_test
  ```
+
+### Different strings and lists of the quiz
+```
+#This is the content of the easy test. It will be displayed if the user chooses the easy level:
+easy_test = '''The Simpsons is an animated sitcom created by ___1___ .
+The father of the family is called ___2___ and the mother's name is ___3___ .
+Both have a naughty son who is called ___4___ .\n'''
+#This inbuilt function splits the string easy_test into a list of separated elements:
+list_of_easy_test = easy_test.split()
+
+#This is the content of the medium test. It will be displayed if the user chooses the medium level:
+medium_test = '''The Simpsons live in a city called ___1___ .
+Homer works in a ___2___ and Marge cares for her family as a ___3___ .
+The boss of Homer is Mr. ___4___ , a very rich person .\n'''
+#This inbuilt function splits the string medium_test into a list of separated elements:
+list_of_medium_test = medium_test.split()
+
+#This is the content of the hard test. It will be displayed if the user chooses the hard level:
+hard_test = '''Let us talk a bit more about other characters in The Simpsons .
+The Kwik-E-Mart is definitely the most popular convenient store in Springfield .
+The proprietor's family name is really difficult, but everybody only uses his
+given name ___1___ . If somebody wants to rob his store, he might call Chief
+___2___ for help. The Chief has a son called ___3___ , who is a classmate
+of Bart's sister ___4___ .\n'''
+#This inbuilt function splits the string hard_test into a list of separated elements:
+list_of_hard_test = hard_test.split()
+
+#This list contains the correct answers in the three different tests, divided into three respective sublists:
+list_answers_test = [['Matt Groening', 'Homer', 'Marge', 'Bart'],
+                    ['Springfield', 'nuclear power plant', 'housewife', 'Burns'],
+                    ['Apu', 'Wiggum', 'Ralph', 'Lisa']]
+```
