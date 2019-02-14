@@ -9,8 +9,13 @@ You can save this code in a python file (`py`) on your computer.<br>
 Then you move to the folder where you stored this file.<br><br>
 
 These commands might be helpful:<br>
-* see the current directory, in which you are located (print working directory): `pw`
+* see the current directory, in which you are located (print working directory): `pwd`
 * change the directory (eg from c to d): `cd /d`
+* move back up to a higher-level folder: `cd ..`
+* open a folder: `cd + folder-name`
+* get all files listed, what are stored within a folder: `ls`
+* start the `py` file: `winpty python + filename`
+
 
 
 
