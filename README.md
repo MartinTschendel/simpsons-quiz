@@ -15,8 +15,9 @@ These commands might be helpful:<br>
 * change the directory (eg from c to d): `cd /d`
 * move back up to a higher-level folder: `cd ..`
 * open a folder: `cd + folder-name`
-* get all files listed, what are stored within a folder: `ls`
+* get all files listed, what are stored within a folder: `ls` or `dir` 
 * start the `py` file: `winpty python + filename`
+* create new directory: `mkdir + directory-name`
 
 --------
 ## Main parts of the code
