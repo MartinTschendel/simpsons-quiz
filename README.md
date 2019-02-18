@@ -10,7 +10,7 @@ This code should be started with a command line, like Git Bash.<br>
 You can save this code in a python file (`py`) on your computer.<br>
 Then you move to the folder where you stored this file.<br><br>
 
-These commands might be helpful:<br>
+These commands might be helpful, this [webpage](https://www.digitalcitizen.life/command-prompt-how-use-basic-commands) contains further infor:<br>
 * see the current directory, in which you are located (print working directory): `pwd`
 * change the directory (eg from c to d): `cd /d`
 * move back up to a higher-level folder: `cd ..`
